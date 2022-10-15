@@ -1,0 +1,15 @@
+matplotlib==3.5.2
+nltk==3.7
+numpy==1.23.1
+scipy==1.8.1
+seaborn==0.11.2
+tensorflow==2.9.1
+torch==1.12.0
+tqdm==4.64.0
+wordcloud==1.8.2.2
+
+# for experiments/models
+data==0.4
+domain==0.1.4
+
+spacy==3.4.1
