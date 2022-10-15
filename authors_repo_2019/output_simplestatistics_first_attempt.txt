@@ -1,0 +1,30 @@
+C:\Users\mymai\anaconda3\envs\dlnlp22-proj\python.exe simple_analysis.py --basic_statistics --count_dict --plot_selection_bias
+-- case 4 --
+total dialogs: 2189
+success rate: 0.65829
+average tokens: 63.99543
+average turns: 4.97122
+average tokens per turn: 12.87319
+
+-- case 5 --
+total dialogs: 2279
+success rate: 0.76964
+average tokens: 59.03817
+average turns: 4.77139
+average tokens per turn: 12.37337
+
+-- case 6 --
+total dialogs: 2292
+success rate: 0.86998
+average tokens: 54.10471
+average turns: 4.56108
+average tokens per turn: 11.86225
+
+total dialogues: 6760
+vocabulary size: 3624
+occupancy of top 10% frequent tokens: 0.96938
+approximation: 1283 (3.98324 per 100 utterances)
+subtlety: 3017 (9.36666 per 100 utterances)
+extremity: 3013 (9.35424 per 100 utterances)
+exactness/confidence: 875 (2.71655 per 100 utterances)
+uncertainty: 1869 (5.80255 per 100 utterances)

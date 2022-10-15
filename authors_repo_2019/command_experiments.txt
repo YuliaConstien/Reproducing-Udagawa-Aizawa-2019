@@ -1,0 +1,13 @@
+# 27/7/22
+# command for running the experiments as specified in the readme
+
+python authors_repo_2019/aaai2019/experiments/train.py --bsz 16 --clip 0.1 --dropout 0.5 --init_range 0.01 --lr 0.001 --max_epoch 30 --nembed_word 128 --nembed_ctx 128 --nhid_lang 128 --nhid_sel 128 --rel_ctx_encoder --rel_hidden 128 --seed 1
+
+# or better
+cd authors_repo_2019/aaai2019/experiments
+python train.py --bsz 16 --clip 0.1 --dropout 0.5 --init_range 0.01 --lr 0.001 --max_epoch 30 --nembed_word 128 --nembed_ctx 128 --nhid_lang 128 --nhid_sel 128 --rel_ctx_encoder --rel_hidden 128 --seed 1
+
+# for windows changed train.py line 29 to backslash OR BETTER:
+# to make the program windows compatible:
+# when calling the experiments (train.py) add the argument
+# --data data\onecommon
